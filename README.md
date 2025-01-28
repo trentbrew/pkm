@@ -7,16 +7,12 @@
 - **Chaos Buffer**: Dump raw ideas without judgment and process them later.
 - **Dynamic Organization**: A system that evolves with you and adapts to your needs.
 
----
-
 ## **Why Cognet?**
 Cognet isn’t just a knowledge management system—it’s a **thinking partner**. Built around the principles of simplicity, scalability, and adaptability, it helps you:
 - Turn random thoughts into actionable insights.
 - Surface connections between ideas you didn’t know were there.
 - Maintain clarity even when life gets messy.
 - Work with AI to make your thinking sharper, faster, and smarter.
-
----
 
 ## **Directory Structure**
 
@@ -151,16 +147,12 @@ Here's how Cognet might look like when you start using it:
   - `related.md`: Summarized relationships between key topics.
   - `stats.md`: Optional system usage stats.
 
----
-
 ### **2. `/01-Daily`: Capturing the Chaos**
 - **Purpose**: A safe space to dump ideas, notes, and random thoughts.
 - **Key Files**:
   - `YYYY-MM-DD.md`: Daily logs for thoughts, notes, and tasks.
   - `chaos-pit.md`: A catch-all for unstructured ideas.
   - `review-template.md`: A guide for processing daily/weekly logs.
-
----
 
 ### **3. `/02-Notes`: The Knowledge Engine**
 - **Purpose**: Your atomic knowledge base, built for interconnection.
@@ -170,16 +162,14 @@ Here's how Cognet might look like when you start using it:
 - **Features**:
   - All notes include YAML metadata:
     ```yaml
-    ---
+    
     title: "Scaling LLMs"
     tags: ["#ai", "#scalability"]
     created: "2025-01-27"
     updated: "2025-01-28"
     related: ["[[ai-ethics.md]]", "[[compute-limits.md]]"]
-    ---
+    
     ```
-
----
 
 ### **4. `/03-Projects`: Work in Progress**
 - **Purpose**: Actionable workspaces for projects and deliverables.
@@ -190,8 +180,6 @@ Here's how Cognet might look like when you start using it:
   - Link project-related notes from `/02-Notes`.
   - Archive dormant projects in `/05-Archive/projects`.
 
----
-
 ### **5. `/04-Resources`: Your External Brain**
 - **Purpose**: Store reference materials, datasets, and external files.
 - **Structure**:
@@ -199,15 +187,11 @@ Here's how Cognet might look like when you start using it:
   - `/diagrams`: Visual assets (e.g., diagrams, flowcharts).
   - `/data`: CSVs, spreadsheets, or other datasets.
 
----
-
 ### **6. `/05-Archive`: The Knowledge Graveyard**
 - **Purpose**: Preserve inactive projects and notes without cluttering your workspace.
 - **Structure**:
   - `/projects`: Dormant or completed projects.
   - `/notes`: Archived atomic notes.
-
----
 
 ### **7. `/Scripts`: Automation Toolbox**
 - **Purpose**: Keep the system running smoothly with scripts for:
@@ -216,8 +200,6 @@ Here's how Cognet might look like when you start using it:
   - Cleaning and summarizing `chaos-pit.md`.
   - Auditing tags for redundancy.
   - Flagging orphaned notes or broken links.
-
----
 
 ## **How to Use PKM**
 
@@ -243,8 +225,6 @@ Here's how Cognet might look like when you start using it:
   - Audit and clean tags for consistency.
   - Generate a refreshed `/00-Index`.
 
----
-
 ## **Scripts Overview**
 
 ### Example Scripts:
@@ -253,15 +233,11 @@ Here's how Cognet might look like when you start using it:
 - `generate-index.py`: Updates `/00-Index` with new tags, files, and priorities.
 - `tag-audit.py`: Flags redundant tags and suggests merges.
 
----
-
 ## **Tips for Success**
 1. **Start Simple**: Build as you go. Don’t over-engineer before you start.
 2. **Embrace Chaos**: Use `chaos-pit.md` guilt-free. The system thrives on capturing everything, even messily.
 3. **Lean on the LLM**: Let AI handle synthesis, clustering, and linking so you can focus on thinking.
 4. **Prune Ruthlessly**: Archive or delete anything that no longer sparks value. PKM thrives on clarity.
-
----
 
 ## **Future Plans**
 - Enhanced LLM features:
@@ -269,8 +245,6 @@ Here's how Cognet might look like when you start using it:
   - Automated note merging and synthesis.
 - Visualization tools for `/02-Notes` relationships.
 - Better multimedia integration.
-
----
 
 ## **License**
 This system is open for you to adapt, expand, or sassify to your heart’s content. Attribution is optional but appreciated.
