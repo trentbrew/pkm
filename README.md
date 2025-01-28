@@ -1,7 +1,5 @@
 # PKM
 
----
-
 ## **Features**
 - **Atomic Note System**: Capture and interlink ideas with ease.
 - **Real-Time LLM Integration**: Use AI to retrieve, expand, and synthesize insights.
