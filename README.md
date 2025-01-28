@@ -1,6 +1,6 @@
 # Personal Knowledge Management (PKM)
 
-A powerful, scalable system for managing your knowledge, projects, and ideas. This system helps you transform scattered thoughts into structured, actionable insights while maintaining flexibility and ease of use.
+A plain text system for managing your knowledge, projects, and ideas. This system helps you transform scattered thoughts into structured, actionable insights while maintaining flexibility and ease of use.
 
 ## Features
 - **Atomic Note System**: Capture and interlink ideas with ease
